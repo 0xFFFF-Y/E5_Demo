@@ -5,14 +5,14 @@ const int resetPin = 1;
 const int ledPin = 13; 
 int startButton =0, countButton =0, resetButton=0;
 int counter = 0;
-
+// This is sample comment for test
 void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(startPin, INPUT); 
   pinMode(countPin, INPUT); 
   pinMode(resetPin, INPUT);  
 }
-
+//Below is a voild loop
 void loop() {
 countButton = digitalRead(countPin);
 if (countButton == HIGH)

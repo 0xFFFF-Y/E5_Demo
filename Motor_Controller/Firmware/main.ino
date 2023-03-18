@@ -13,6 +13,7 @@ void setup() {
 void loop() {
   
   myDisplay.setCursor(0, 1);
+  myDisplay.print("System powered on");
   myDisplay.print(millis() / 1000);
 
 
